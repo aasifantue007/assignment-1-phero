@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.banner-container{
+    height: 100vh;
+    width: 100%;
+}
+.banner-image{
+    position: relative;
+    margin: 3;
+}
+.banner-text{
+    position: absolute;
+    top: 300px;
+    right:80px;
+    font-size: 40px;
+    text-shadow: 1px;
+    color: white;
+    text-justify: distribute;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;   
+}
+.banner-paragraph{
+    position: absolute;
+    top:430px;
+    right:80px;
+    font-size: 20px;
+    text-align: right;
+    justify-content: center;
+    color: white;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner-button{
+    position: absolute;
+    top:550px;
+    right:80px;
+    padding: 25px;
+    background-color: #8BCED3;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue-font{
+    color: #8BCED3;
+}
