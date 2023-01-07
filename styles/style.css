@@ -40,7 +40,7 @@
     margin-top: 20px;
     background-color: #8BCED3;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
@@ -207,6 +207,7 @@
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    border-radius: 15px;
  }
  .email-head{
     width: 100%;
