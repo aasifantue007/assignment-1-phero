@@ -160,8 +160,10 @@
     display: flex;
     justify-content:space-around;
     background-image: linear-gradient(rgb(0, 0, 0),rgb(120,104,198,100));
-    padding: 100px;
-    bottom: 100px;  
+    padding: 50px;
+    bottom: 50px;  
+    border: none;
+  
 }
  .left-container{
     padding: 0px;
@@ -171,7 +173,7 @@
 
  }   
  .social-icons{
-    size: 5px;
+    size: 1px;
 
  }
  .right-container{
@@ -179,12 +181,12 @@
     color: white;
  }
  .footer-head{
-    font-size: 50px;
+    font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 20px;
  }
  .footer-text{
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 20px;
     line-height: 50px;
     padding-top: 20px;
@@ -217,7 +219,7 @@
     font-weight: bolder;
  }
  .subscribe{
-    font-size: 50px;
+    font-size: 40px;
     justify-content: right;
     margin-bottom: 30px;
  }
