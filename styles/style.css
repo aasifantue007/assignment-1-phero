@@ -44,6 +44,7 @@
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    border: none;
 }
 .blue-font{
     color: #8BCED3;
@@ -55,7 +56,7 @@
     background-color: #7869c610;
     position:relative;
     bottom: 68px;
-    bottom: 145px
+    bottom: 145px;
 }
 .person-image{
     position: relative;
@@ -69,17 +70,16 @@
 }
 .middle-head{
     font-size: 50px;
-    font-weight: 900;
-    padding: 20px;
+    font-weight: 700;
     color: #8BCED3;
     font-family: Cambria, Cochin;
 
 }
 .focus-paragraph{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
-    padding-top: 10px;
-    
+    padding-top: 20px
+
 }
 .section-list{
     padding-top: 20px;
@@ -137,3 +137,87 @@
     text-align: center;
     padding-left: 200px;
 }
+/*Gradient */
+.gradient-image-container{
+    margin: 100px;
+    padding: 100px;
+    background-image: linear-gradient(rgba(120,104, 198, 100),rgb(0, 0, 0));
+    bottom:500px;
+    border-radius: 20px;
+
+}
+.gradient-content{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding:20px;
+}
+.quote{
+    font-size: 70px;
+}
+/* Footer Section */
+.footer-container{
+    display: flex;
+    justify-content:space-around;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(120,104,198,100));
+    padding: 100px;
+    bottom: 100px;  
+}
+ .left-container{
+    padding: 0px;
+    margin: 3px;
+    color: white;
+    text-align: left;
+
+ }   
+ .social-icons{
+    size: 5px;
+
+ }
+ .right-container{
+    padding: 50px;
+    color: white;
+ }
+ .footer-head{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+ }
+ .footer-text{
+    font-size: 25px;
+    padding-bottom: 20px;
+    line-height: 50px;
+    padding-top: 20px;
+    text-align: justify;
+    
+ }
+ .black-text{
+    color:#8BCED3;
+ }
+ .footer-button{
+    margin-top: 30px;
+    background-color: #8BCED3;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: inline-block;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+ }
+ .email-head{
+    width: 100%;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: azure;
+    right:200px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+ }
+ .subscribe{
+    font-size: 50px;
+    justify-content: right;
+    margin-bottom: 30px;
+ }
