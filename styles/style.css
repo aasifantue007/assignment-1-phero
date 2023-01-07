@@ -70,6 +70,9 @@
     text-align: center;
     font-weight: 900;
     padding-bottom: 10px;
+    color: #8BCED3;
+    text-shadow: 10px;
+
 }
 .focus-paragraph{
     text-align: center;
@@ -83,4 +86,42 @@
     font-weight: 700;
     text-align: left;
     
+}
+
+    
+
+
+.icon-container{
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.514);
+    position:relative;
+    bottom: 145px;
+
+    
+}
+.icon-head{
+    font-size: 60px;
+    color: #8BCED3;
+    
+}
+.all-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+}
+.grey-color{
+    color: gray;
+    padding: 20px;
+}
+.personal-container{
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.514);
+    position:relative;
+    bottom: 145px;
+}
+.personal-head{
+    font-size: 60px;
+    color: #8BCED3;
+    padding: 50px;
+
 }
