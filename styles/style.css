@@ -43,17 +43,19 @@
     border-radius: 5px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
 .blue-font{
     color: #8BCED3;
 }
-/* Middle Section */
+/* Focus Section */
 .middle-part{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(211, 211, 211, 0.514);
+    background-color: #7869c610;
     position:relative;
-    bottom: 145px;
+    bottom: 68px;
+    bottom: 145px
 }
 .person-image{
     position: relative;
@@ -66,12 +68,11 @@
 
 }
 .middle-head{
-    font-size: 60px;
-    text-align: center;
+    font-size: 50px;
     font-weight: 900;
-    padding-bottom: 10px;
+    padding: 20px;
     color: #8BCED3;
-    text-shadow: 10px;
+    font-family: Cambria, Cochin;
 
 }
 .focus-paragraph{
@@ -89,19 +90,22 @@
 }
 
     
-
+/* Professional Goals Icon  Section */
 
 .icon-container{
     text-align: center;
-    background-color: rgba(211, 211, 211, 0.514);
     position:relative;
+    background-color: #7869c610;
     bottom: 145px;
-
     
+
+
 }
 .icon-head{
-    font-size: 60px;
+    font-size: 50px;
     color: #8BCED3;
+    font-family: Cambria, Cochin;
+    padding-top: 50px;
     
 }
 .all-icons{
@@ -113,15 +117,23 @@
     color: gray;
     padding: 20px;
 }
-.personal-container{
-    text-align: center;
-    background-color: rgba(211, 211, 211, 0.514);
-    position:relative;
-    bottom: 145px;
-}
-.personal-head{
-    font-size: 60px;
-    color: #8BCED3;
-    padding: 50px;
+/* Quote Section */
+.my-quote-container{
+    height: 100vh;
+    width: 100%;
 
+}
+
+.quote-banner{
+    bottom: 145px;
+    position: relative;
+}
+.my-quote{
+    position: absolute;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 2350px;
+    text-align: center;
+    padding-left: 200px;
 }
